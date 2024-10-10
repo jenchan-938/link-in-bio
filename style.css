@@ -1,10 +1,18 @@
 body { 
-  background-color: aqua;
+  background: linear-gradient(195deg, #f2ebf0, #f5d5eb, #f8bfe5, #faa7dd, #fc8ed4, #fe72ca, #ff4fbe, #ff0db1); /* made at https://learnui.design/tools/gradient-generator.html */
   padding-top: 40px;
   padding-bottom: 40px;
+  min-height: 100%
 }
 
+a {
+  color: whitesmoke
+}
 
+.item { 
+  background-color: rgba(85, 10, 75, 0.8)
+
+}
 .avatar { 
   width: 128px;
   height: 128px;
