@@ -2,15 +2,19 @@ body {
   background: linear-gradient(195deg, #f2ebf0, #f5d5eb, #f8bfe5, #faa7dd, #fc8ed4, #fe72ca, #ff4fbe, #ff0db1); /* made at https://learnui.design/tools/gradient-generator.html */
   padding-top: 40px;
   padding-bottom: 40px;
-  min-height: 100%
+  min-height: 100%;
+  font-family: "Georgia";
+  font-size: 24x;
+  font-weight: 900;
 }
 
 a {
-  color: whitesmoke
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .item { 
-  background-color: rgba(85, 10, 75, 0.8)
+  background-color: rgba(85, 10, 75, 0.4)
 
 }
 .avatar { 
@@ -28,8 +32,8 @@ a {
 
 }
 
-.maincontaner {
-  max-width: 640px;
+.main-container{
+  max-width: 600px;
   margin: auto
 }
 
@@ -44,7 +48,7 @@ a {
   text-align: center;
 }
 
-.social-icon-row {
+.social-icons-row {
   margin-bottom: 30px;
   Display: flex;
   justify-content: space-around;
@@ -54,4 +58,10 @@ a {
   margin-bottom: 20px;
   display: flex; 
   align-items: center;
+}
+
+.link-text { 
+  text-align: center;
+  flex-grow:1;
+
 }
