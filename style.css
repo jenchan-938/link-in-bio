@@ -27,3 +27,8 @@ a {
   border-radius: 48px;
 
 }
+
+.maincontaner {
+  max-width: 640px;
+  margin: auto
+}
