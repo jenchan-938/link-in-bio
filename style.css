@@ -3,13 +3,13 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   min-height: 100%;
-  font-family: "Georgia";
+  font-family: "Rajdhani";
   font-size: 24x;
   font-weight: 900;
 }
 
 a {
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
 }
 
@@ -51,10 +51,9 @@ a {
 .name-row {
   margin-bottom: 30px;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Qwitcher Grypen";
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 900;
 }
 
 .social-icons-row {
