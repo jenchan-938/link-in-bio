@@ -14,7 +14,12 @@ a {
 }
 
 .item { 
-  background-color: rgba(85, 10, 75, 0.4)
+  background-color: rgba(85, 10, 75, 0.4);
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 4px 4px 10px 0px rgba (122, 32, 122, 0.5);
+
 
 }
 .avatar { 
@@ -46,6 +51,10 @@ a {
 .name-row {
   margin-bottom: 30px;
   text-align: center;
+  font-size: 40px;
+  font-family: "Qwitcher Grypen";
+  font-weight: 700;
+  font-style: normal;
 }
 
 .social-icons-row {
